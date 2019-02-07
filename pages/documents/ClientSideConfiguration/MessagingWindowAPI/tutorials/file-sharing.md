@@ -118,7 +118,7 @@ Request Body Example:
   "type": "ms.GenerateURLResponse"
   }
 ```
-
+**Note**:
 Extract `relativePath`, `temp_url_sig`, `temp_url_expires` from the response. We'll use them in the next request, to upload the file.
 
 #### Using bash
