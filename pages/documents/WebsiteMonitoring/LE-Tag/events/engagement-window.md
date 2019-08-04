@@ -37,7 +37,7 @@ This event triggers when the chat state is changed.
 *Example:*
 
 ```{ "state" : "chatting" } //The current chat state```
-
+  
 ### conversationInfo
 
 This event triggers when the conversation data was changed, for example the conversation state.
