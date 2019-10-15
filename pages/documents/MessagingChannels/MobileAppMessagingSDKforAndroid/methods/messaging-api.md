@@ -302,7 +302,7 @@ To allow user interaction, the Messaging Mobile SDK must be initiated. This API 
 
 When the conversation screen is displayed, the server connection for messaging will be established. If a user session is already active and an additional SDK init call is made, it will be ignored and will not start an additional session. This method gets InitLivePersonProperties, which includes the properties needed for the init phase of the SDK.
 
-InitLivePersonProperties has a new [MonitoringInitParams](android-interface-definitions.html) member that initializes the Monitoring API. Passing the MonitoringInitParams is mandatory when using Monitoring API capabilities.
+InitLivePersonProperties has a new [MonitoringInitParams(link does not work)](android-interface-definitions.html) member that initializes the Monitoring API. Passing the MonitoringInitParams is mandatory when using Monitoring API capabilities.
 
 ```java
 public static void initialize (Context context, InitLivePersonProperties initProperties)
